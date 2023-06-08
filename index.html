@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="icons8-calculator-96.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <span><i class="fa-solid fa-calculator"></i>Calculator</span>
+        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+      </div>
+      <div class="screen">
+        <input type="text" class="main-field" />
+        <input type="text" class="result" />
+      </div>
+      <div class="buttons-container">
+        <div class="stack-container">
+          <button class="clear">AC</button>
+          <button class="delete">DE</button>
+          <button class="negative">+/-</button>
+          <button class="divide">÷</button>
+        </div>
+        <div class="stack-container">
+          <button class="btn_7">7</button>
+          <button class="btn_8">8</button>
+          <button class="btn_9">9</button>
+          <button class="times">*</button>
+        </div>
+        <div class="stack-container">
+          <button class="btn_4">4</button>
+          <button class="btn_5">5</button>
+          <button class="btn_6">6</button>
+          <button class="minus">-</button>
+        </div>
+        <div class="stack-container">
+          <button class="btn_1">1</button>
+          <button class="btn_2">2</button>
+          <button class="btn_3">3</button>
+          <button class="plus">+</button>
+        </div>
+        <div class="stack-container">
+          <button class="percent">00</button>
+          <button class="btn_0">0</button>
+          <button class="btn_dot">.</button>
+          <button class="equal">=</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
